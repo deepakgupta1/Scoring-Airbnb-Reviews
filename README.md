@@ -4,10 +4,10 @@ Score prediction in the categories of cleanliness, accuracy, check-in, communica
 1. Problem and data
 Doing sentiment analysis on reviews of comments left by customers and predict seven different score based on the reviews and other data given.
 Lots of data was given:
-• Data about reviews of customers.
-• Data about the listing properties.
-• Data about neighborhood of listings.
-• Data about pricing of listings.
+* Data about reviews of customers.
+* Data about the listing properties.
+* Data about neighborhood of listings.
+* Data about pricing of listings.
 
 2. Data Preprocessing
 Since major part of data was text, some preprocessing was required. Some of the major I did:
