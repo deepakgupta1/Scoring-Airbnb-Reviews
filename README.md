@@ -37,11 +37,11 @@ Taking the amount of data in to consideration, I choose LightGBM Regressor to be
 
 ### 5. Hyperparameters tuning and cross-validation strategy.
 #### Cross-validation strategy: 
-10-fold stratified cross-validation, stratified over the label (rating, value, cleanliness etc.). Since the ratings were mostly approaching their maximum values (100, 10), so the distribution of the ratings was very skewed that’s why stratified over the ratings itself. This way there was a constancy in the cross-validation scores among the 10 folds.
+10-fold stratified cross-validation, stratified over the label (rating, value, cleanliness etc.). Since the ratings were mostly approaching their maximum values (100, 10), so the distribution of the ratings was very skewed that’s why `stratified over the ratings` itself. This way there was a constancy in the cross-validation scores among the 10 folds.
 #### Evaluation metric: 
 RMSE. The overall RMSE score for a 10-fold cross-validation was the mean of all 10 scores.
 #### Hyperparameter tuning: 
-Used Bayesian Optimization algorithm for parameters tuning of the lightgbm algorithm using the above described cross-validation strategy.
+Used `Bayesian Optimization` algorithm for parameters tuning of the lightgbm algorithm using the above described cross-validation strategy.
 
 ### 6. Training (using IBM Watson)
 * Made a project on IBM Watson.
