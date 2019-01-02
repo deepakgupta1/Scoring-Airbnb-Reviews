@@ -1,5 +1,5 @@
 # Scoring-Airbnb-Reviews
-Score prediction in the categories of cleanliness, accuracy, check-in, communication, location, value (out of 10) and overall (out of 100) based on the reviews left by customers on Airbnb.
+Score prediction in the categories of cleanliness, accuracy, check-in, communication, location, value (out of 10) and overall (out of 100) based on the reviews left by customers on Airbnb. Find more about the challenge [here](https://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=17202&pm=14964).
 
 ### 1. Problem and data.
 Doing sentiment analysis on reviews of comments left by customers and predict seven different score based on the reviews and other data given.
